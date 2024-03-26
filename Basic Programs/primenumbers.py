@@ -10,7 +10,7 @@ def prime(x,y):
             for j in range(2, int(i/2)+1):
                 if i % j == 0:
                     break
-                else:
+            else:
                     prime_no.append(i)
     return prime_no
 
