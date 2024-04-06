@@ -18,8 +18,8 @@ class T20(Cricket):
         self.teams = teams
         super().domstic()                        #accessing the parent class method from derived class
 
-    # def domstic(self):
-    #     print(f"League Teams {self.teams}")
+    def domstic(self):
+         print(f"League Teams {self.teams}")
 
 #instanciating the class object
 t20 = T20("RCB")

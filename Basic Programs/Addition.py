@@ -21,3 +21,4 @@ addition_lambda = lambda num1, num2 : num1 + num2   #lamda expression takes 2 ar
 
 addition_value = addition_lambda(num1,num2)        #calling the lamda function to compute two value
 print(f"Sum total of two value usking lambda is {addition_value}")
+
