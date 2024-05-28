@@ -1,6 +1,6 @@
 
 
-st = "Print only words that starts with s in this sentence"
+st = "Print only words that starts with is in this sentence"
 print(st.split())
 my_st = st.split()
 
@@ -22,28 +22,30 @@ print(divisible_by_3)
 
 ''' Go through the string and if length of word is even print even '''
 
-evn_str = "Here every this is even but few words are odd Number so lets cater those as well"
+evn_str = "Here we are trying to keep every word as even but few words are odd Number so lets cater those as well"
 print(evn_str.split())
 for i in evn_str.split():
     if len(i)%2==0:
         print(f" The length is even: ",i)
 
     else:
-        print(f"The length is off: ", i)
-
+        print(f"The length is odd: ", i)
 
 
 '''FIZBUZZ Problem for divisible by 3 & 5 in the range of 0 to 100'''
 
+my_list = []
 for x in range(0,101):
     if x%3==0 and x%5==0:
-        print("FIZZBUZZ")
+        my_list.append("FIZZBUZZ")
     elif x%3==0:
-        print("fizz")
+        my_list.append("FIZZ")
     elif x%5==0:
-        print("Buzz")
+        my_list.append("BUZZ")
     else:
-        print(f"Sorry ",x, "is neither Fizz Nor Buzz")
+        my_list.append("Neither FIZZ nor BUZZ")
+
+print(my_list)
 
 
 

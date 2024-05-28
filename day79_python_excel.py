@@ -28,4 +28,3 @@ cell_value = myactivesheet['A1':'D10']
 for cell1, cell2,cell3,cell4 in cell_value:
     print(cell1.value,cell2.value,cell3.value,cell4.value)
 
-

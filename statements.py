@@ -1,7 +1,7 @@
 
 x = 0
 while x<6:
-    print("The value of {} ".format(x))
+    print(f"The value of ",x)
 
     x = x+1
 

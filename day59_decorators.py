@@ -1,11 +1,9 @@
 
-
-
 def name_decor(name):
     def enchance_name():
-        print("before decorating name function")
+        print("action need to be performed before decorating name function")
         name()
-        print("after decorating name function")
+        #print("after decorating name function")
     return enchance_name
 
 @name_decor
@@ -15,7 +13,6 @@ def name():
 #Long way to call decorator without @
 # decoration = name_decor(name)
 # print(decoration())
-
 
 #shorter was use @decorating function name i.e @name_decor
 name()
@@ -33,4 +30,5 @@ def number():
     return 19
 
 print(number())
+
 
