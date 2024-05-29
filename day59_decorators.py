@@ -3,7 +3,7 @@ def name_decor(name):
     def enchance_name():
         print("action need to be performed before decorating name function")
         name()
-        #print("after decorating name function")
+        print("after decorating name function")
     return enchance_name
 
 @name_decor
@@ -23,6 +23,7 @@ def addi(number):
         first_num=number()
         result = first_num+12
         return result
+    print("Decorator is done with decorating")
     return summ
 
 @addi

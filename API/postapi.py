@@ -6,6 +6,11 @@ import configparser
 config = configparser.ConfigParser()
 config.read('properties.ini')
 
+# my_config=configparser.configparser()
+# my_config.read('properties.ini')
+# newheaders = {}
+# my_json_response = requests.post(my_config['API']['endpoint']+'/Addbook.php', json= ,headers= newheaders )
+
 header = {'Content-Type': "application/json"}
 book = {"name": "100 Days Learning", "isbn": "100Day", "aisle": "2878", "author":"PujuRai"}
 print("************ADD Book*********************")
