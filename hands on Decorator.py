@@ -21,7 +21,8 @@ def my_div_decor(divide):
         if y ==0:
             print("Woooh you need to enter higher denominator")
             return
-        return divide(x,y)
+        else:
+            return divide(x,y)
     return div
 
 

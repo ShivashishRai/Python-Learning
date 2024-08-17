@@ -11,13 +11,10 @@ else:
         if check_num %i !=0:
             print(f"{check_num} No is a Prime number")
             break
-
     else:
         print(f"{check_num} is not Prime Number")
 
-
 #identify no is prime or not using math library
-
 def prime_no(num):
     if num<=1:
         print("No is not prime")

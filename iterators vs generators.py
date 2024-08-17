@@ -10,7 +10,6 @@ print(next(my_iter))
 
 
 #Example of a Generators in python
-
 try:
     def sqr(n):
         for i in range(1,n+1):

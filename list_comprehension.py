@@ -26,8 +26,10 @@ print(' '.join(my_word))
 first_name = ['Shiva', 'Puju']
 last_name = ['Rai','Kumari']
 
-first_last = [(first,last) for first ,last  in zip(first_name,last_name)]
-print(first_last)
-#
-first_last_dict = [{first:last} for first,last in zip(first_name,last_name)]
-print(first_last_dict)
+dict = [zip(first_name,last_name)]
+print(dict)
+# first_last = [(first,last) for first ,last  in zip(first_name,last_name)]
+# print(first_last)
+# #
+# first_last_dict = [{first:last} for first,last in zip(first_name,last_name)]
+# print(first_last_dict)

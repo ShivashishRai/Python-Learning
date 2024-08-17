@@ -65,4 +65,4 @@ weak = WeakStudent("Shiv", 9, 23)
 
 #calling public member function of derived class
 weak.studentinfo()
-
+print(weak.__dir__())
