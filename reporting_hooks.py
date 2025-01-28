@@ -13,4 +13,4 @@ def pytest_report_teststatus(report):
             return "PASS", "P", "PASSED"
 
 def test_something():
-    assert 1 + 1 == 2
+    assert 1 + 7 == 2

@@ -15,3 +15,7 @@ print(f"The max of number is {max}")
 
 #finding max b/w two number 
 
+a=10
+b=12
+print(a if a>b else b)
+

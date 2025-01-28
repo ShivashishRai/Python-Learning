@@ -1,7 +1,6 @@
 
 #passing variable arguments to a function
-#args
-   # Are run time list of variable length
+#args : Are run time list of variable length
 
 def sumof(*args):
     res = 0

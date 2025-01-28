@@ -1,9 +1,7 @@
 
 
 #WAP to count each word frequency from user input sentence
-
 def freq(sent):
-
     sents = sent.split()
     print(sents)
     sents2 = []
@@ -24,3 +22,17 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+print("*******************************************************")
+my_list=input("Enter the string to count freq of words:").split()
+freq = {}
+for item in my_list:
+    if (item in freq):
+        freq[item] += 1
+    else:
+        freq[item] = 1
+
+print(freq)
+# for key, value in freq.items():
+#     print("%s : %s" %(key, value))
+#     print(freq)

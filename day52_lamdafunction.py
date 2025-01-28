@@ -19,6 +19,7 @@ print("Max number is", max_num(21,28))
 #convert string to upper case letter with help of lamda function
 name="Shivashish"
 name_upper = lambda name : name.upper()
+print(type(name_upper))
 print(name_upper(name))
 
 

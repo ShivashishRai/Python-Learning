@@ -19,6 +19,16 @@ while True:
         count += 1
 
 
+print("****************************************************************")
+while True:
+    first_count = word.find(sub_word,start_pos,word_len)
+    if first_count == -1:
+        exit()
+
+    else:
+        print(f"Found the sub string {sub_word} at position:", first_count)
+        start_pos = first_count + len_sub_word
+        count += 1
 
 
 

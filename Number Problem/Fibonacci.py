@@ -6,6 +6,7 @@ print(f"The number for fibonacci opted by user is : ", Numb)
 first_Numb = 0
 second_Numb = 1
 fib_sum = 0
+
 for x in range(0,Numb):
     if Numb == 0:
         print(f"Fibonacci of the Number is ",{Numb})
@@ -17,5 +18,4 @@ for x in range(0,Numb):
        fib_sum = first_Numb + second_Numb
        first_Numb = second_Numb
        second_Numb = fib_sum
-
 print(f"The Fibonacci series of the {Numb} is :", fib_sum)

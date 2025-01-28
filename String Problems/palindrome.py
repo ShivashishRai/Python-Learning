@@ -1,5 +1,5 @@
 
-#WAP to Wo
+#WAP to check prlindrome of string using slice method.
 mystring='Delhi'
 new_mystring = mystring[::-1]
 print(new_mystring)
