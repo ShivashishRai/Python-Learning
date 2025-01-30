@@ -7,9 +7,11 @@ class ICC:
     class Bcci:
         def __init__(self):
             print("Myself Board of Cricket Counsil of India")
+        def Ranji_Trophy(self):
+            print("Ranji Trophy is one of the Prestigious Domestic Tournament of India")
     class Bcb:
         def __init__(self):
-            print("MyselfBangladesh Cricket Board")
+            print("Myself Bangladesh Cricket Board")
     class Acb:
         def __init__(self):
             print("Myself Australia Cricket Board")
@@ -18,4 +20,6 @@ class ICC:
 cric_icc = ICC()
 
 cric_bcci = cric_icc.Bcci()     #inorder to creat object for inner class we have to first create object for outer class
+cric_bcci.Ranji_Trophy()        # we are using inner class object to call the inner class method defined
+cric_bcb = cric_icc.Bcb()
 
