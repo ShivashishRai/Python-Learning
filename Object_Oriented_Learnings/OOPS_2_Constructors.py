@@ -79,3 +79,12 @@ test.Test_Cricket()      #method will be execuated
 
 
 
+ 
+#Important to revise Difference b/w constructor and method for interview point
+        # Method name can be anytging  - constructor name should be __init__()
+        #Method aren't executated automatically  - creating object will trigger constructor
+        # per object we can call method any number of times   - constructor execuated only once
+        # inside method we can write business logic as per our requirement  -  constructor is used for declare and initialise instance variables
+
+
+
