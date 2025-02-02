@@ -1,16 +1,16 @@
 #Read file
-with open("C:\\Users\\shiva\\PycharmProjects\\GfGpythonLearning\\myfile", 'r') as file:
+with open("/myfile", 'r') as file:
     mytext = file.read()
     print(mytext)
 
 #Reading by defining the bytes to read from the file
-with open("C:\\Users\\shiva\\PycharmProjects\\GfGpythonLearning\\myfile", 'r') as file:
+with open("/myfile", 'r') as file:
     limittext = file.read(8)
     print(limittext)
 
 
 #Appendingthe text in the file so we need to open the file in append mode
-with open("C:\\Users\\shiva\\PycharmProjects\\GfGpythonLearning\\myfile", 'a') as file:
+with open("/myfile", 'a') as file:
     file.write("MyLovePuju")
 
 

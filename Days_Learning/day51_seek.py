@@ -1,6 +1,6 @@
 
 
-with open('C:\\Users\\shiva\\PycharmProjects\\GfGpythonLearning\\myfile','r') as reader:
+with open('/myfile', 'r') as reader:
     #print(reader.read())
 
     #seek function it helps you to move the current position whitin a file to a specific point.

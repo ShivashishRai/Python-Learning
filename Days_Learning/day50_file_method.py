@@ -1,5 +1,5 @@
 
-with open('C:\\Users\\shiva\\PycharmProjects\\GfGpythonLearning\\myfile','w') as writer:
+with open('/myfile', 'w') as writer:
 
     line = ['Shiv', 'completed','50', 'days' , 'of', 'Learning', 'Challenge']
     for x in line:

@@ -3,7 +3,7 @@
 import openpyxl
 
 #locating the excel file location into an path object
-path = 'ExcelPython.xlsx'
+path = '../ExcelPython.xlsx'
 workbook_location = openpyxl.load_workbook(path)
 myactivesheet = workbook_location.active
 
