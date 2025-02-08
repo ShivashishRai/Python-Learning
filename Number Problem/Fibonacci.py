@@ -11,7 +11,7 @@ for x in range(0,Numb):
     if Numb == 0:
         print(f"Fibonacci of the Number is ",{Numb})
         break
-    if Numb == 1:
+    elif Numb == 1:
         print(f"Fibonacci of the Number is ", {Numb})
         break
     else:

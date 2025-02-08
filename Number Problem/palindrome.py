@@ -2,7 +2,7 @@
 #Write a program in Python to check whether a number is palindrome or not using iterative method.
 
 #    Input : 321
-#   Output : 123
+#    Output : 123
 
 num = int(input("Input the number for reversal: ",))
 print("The Number before reversal: ",num)

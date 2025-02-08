@@ -14,18 +14,18 @@ config.read('properties.ini')
 header = {'Content-Type': "application/json"}
 book = {"name": "100 Days Learning", "isbn": "100Day", "aisle": "2878", "author":"PujuRai"}
 print("************ADD Book*********************")
-response = requests.post(config['API']['endpoint']+'/Addbook.php', json=book, headers=header)
+response = requests.post(config['API']['endpoint']+config['Resources']['add_book_resource'], json=book, headers=header)
 add_book_response_json = response.json()
 
 print(response.status_code)
-print(add_book_response_json)
+print(add_book_response_json)                      # parse the response in the jaon format
 print(response.url)
-book_id = add_book_response_json['ID']
+book_id = add_book_response_json['ID']             #Contains the newly added book id
 
 print("************DeleteBook*********************")
 #Delete Book
 book_to_be_deleted = {"ID": book_id}
-response = requests.post(config['API']['endpoint']+'/DeleteBook.php', json=book_to_be_deleted, headers=header)
+response = requests.post(config['API']['endpoint']+config['Resources']['delete_book_resource'], json=book_to_be_deleted, headers=header)
 delete_response_json = response.json()
 
 print(delete_response_json)

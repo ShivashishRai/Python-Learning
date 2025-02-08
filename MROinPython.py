@@ -6,8 +6,7 @@ class A:
 
 class B(A):
     def firstname(self):
-        pass
-        super(B,self).firstname()
+        super().firstname()
         #print("Rai")
 
 b = B()

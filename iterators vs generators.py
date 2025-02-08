@@ -9,6 +9,10 @@ print(next(my_iter))
 print(next(my_iter))
 
 
+
+# my_tup_iter = (x for x in range(100))
+# print(type(my_tup_iter))
+
 #Example of a Generators in python
 
 def sqr(n):
@@ -22,6 +26,6 @@ print(next(sqr_gen))
 print(next(sqr_gen))
 print(next(sqr_gen))
 print(next(sqr_gen))
-print(next(sqr_gen))
-print(next(sqr_gen))
+# print(next(sqr_gen))
+# print(next(sqr_gen))
 

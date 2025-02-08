@@ -1,6 +1,6 @@
 
 
-st = "Print only words that starts with is in this sentence"
+st = "Print only words that starts with 's' in this sentence"
 print(st.split())
 my_st = st.split()
 
