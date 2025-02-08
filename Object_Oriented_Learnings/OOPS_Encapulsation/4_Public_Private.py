@@ -67,3 +67,25 @@ print(test_obj._Test__x)            #ClassReferenceObject._ClassName__privatevar
 test_obj._Test__m1()                #ClassReferenceObject._ClassName__privatemethodname
 
 # test_obj.__m1()
+
+
+# Protected Members : Protected Members can be accessed within in the class anywhere, from outside the class only in child classes.
+
+
+
+
+
+#Data HIding : Not allowing access of variable outside of the class by defining teh variable as private variable
+
+class Test:
+    def __init__(self, prv_var):
+        self.__prv = prv_var
+
+    def accrss_private_by_data_hiding(self):
+        # perform some validation on being true we can access private variable in class
+        print(self.__prv)
+
+
+test_obj = Test(1000)
+# print(test_obj.__prv)        #uncommenting code ends up an error as trying to access private variable
+test_obj.accrss_private_by_data_hiding()         #we can access by object.methodname (having private variable)
