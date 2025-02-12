@@ -38,3 +38,5 @@ my_str = ('Anu','Priya','Sikha','Ishu','Apu','Aman')
 len_4 = filter(lambda x :len(x) >4, my_str)
 print(type(len_4))
 print(tuple(len_4))
+
+

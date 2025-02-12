@@ -1,7 +1,6 @@
 
 #Public Member : by default every variable or method are Accessiable across inside of class or outside of the class
 
-
 class Test:
 
     def __init__(self):
@@ -19,10 +18,8 @@ class Test:
 test_obj = Test()
 test_obj.m2()
 
-
 # Private : method or variable is defined as private then we can access that member only within the class and accessing member outside of the class is restricted.
         # to denote method or variable as private :    self.__x = 10    -> (private variable)         and       def __m1(self):    -> (private method)
-
 
 class Test:
 
@@ -42,9 +39,6 @@ test_obj = Test()
 test_obj.m2()
 
 # test_obj.__m1()    # un commenting will throw an error as mentioned private method/ variable is not accessiable outside class
-
-
-
 #Name Manglling :  we can access private memebre (method or variable) by calling    Syntax --> {  ClassReferenceObject._ClassName__privatemembername  }
         # it compromise with the security in python
 class Test:
@@ -67,14 +61,7 @@ print(test_obj._Test__x)            #ClassReferenceObject._ClassName__privatevar
 test_obj._Test__m1()                #ClassReferenceObject._ClassName__privatemethodname
 
 # test_obj.__m1()
-
-
 # Protected Members : Protected Members can be accessed within in the class anywhere, from outside the class only in child classes.
-
-
-
-
-
 #Data HIding : Not allowing access of variable outside of the class by defining teh variable as private variable
 
 class Test:

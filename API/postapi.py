@@ -2,9 +2,8 @@
 
 import requests
 import configparser
+from Configurations import *
 
-config = configparser.ConfigParser()
-config.read('properties.ini')
 
 # my_config=configparser.configparser()
 # my_config.read('properties.ini')
@@ -14,6 +13,7 @@ config.read('properties.ini')
 header = {'Content-Type': "application/json"}
 book = {"name": "100 Days Learning", "isbn": "100Day", "aisle": "2878", "author":"PujuRai"}
 print("************ADD Book*********************")
+config = getconfig()             #Object reference for Get config method
 response = requests.post(config['API']['endpoint']+config['Resources']['add_book_resource'], json=book, headers=header)
 add_book_response_json = response.json()
 

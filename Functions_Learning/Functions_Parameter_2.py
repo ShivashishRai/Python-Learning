@@ -19,7 +19,7 @@ calc(196,5)     #in case we would have passed only one argumnt then we would end
 
 
 #Keyword Arguments : pass argument value by keyword i.e. by parameter name e.g.
-                # number of arguments must match where as here order is not important unline positional argymnets
+                # number of arguments must match where as here order is not important unlike positional argymnets
 def calc(a,b):
     print("Addition :",a+b)
     print("Substraction :", a - b)
