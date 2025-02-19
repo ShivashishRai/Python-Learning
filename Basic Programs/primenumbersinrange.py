@@ -18,6 +18,7 @@ start_range = int(input("Enter the starting range to check prime number: "))
 end_range = int(input("Enter the ending range to check the prime number :"))
 
 prime_list=prime(start_range,end_range)
+print(prime_list)
 count_of_prime = len(prime_list)
 
 if count_of_prime <=0:

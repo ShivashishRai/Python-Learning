@@ -74,8 +74,8 @@ fun1('Ramyond','Radian','Relaxo')
 
 
 #Variable Length Arguments :  variable number f arguments can be passed
-    #after Variable length argyment only keyword arguments are valid arguments
-    #WE ARE not allowed to take multiple variable lenth arguments
+    #after Variable length argument only keyword arguments are valid arguments
+    #we are not allowed to take multiple variable lenth arguments
    #2 Types of Variable length arguments
     #args : become tuple
     #kwargs : become dictionary

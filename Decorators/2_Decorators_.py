@@ -8,6 +8,7 @@ def decor(func):                        #decorator function take func as an argu
 
     def inner():                       #decorating the function with enhanced feature so that why defined another function
         print(" I am here to beautify non glamrous function ")
+        func()
     return inner                       # inner function is executed and returned
 
 @decor                  #calling the function (act as decorator)
