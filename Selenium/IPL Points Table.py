@@ -30,5 +30,5 @@ for team in teams_ipl_2024:
 
 driver.get("https://www.iplt20.com/")
 action = ActionChains(driver)
-action.move_to_element(By.XPATH,"(//div[@class='row'])[3]/div/div[2]/a")
+#action.move_to_element(By.XPATH,"(//div[@class='row'])[3]/div/div[2]/a")
 print(driver.find_element(By.XPATH,"(//div[@class='row'])[3]/div/div[2]/a").text)

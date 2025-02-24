@@ -26,6 +26,7 @@ print("************DeleteBook*********************")
 #Delete Book
 book_to_be_deleted = {"ID": book_id}
 response = requests.post(config['API']['endpoint']+config['Resources']['delete_book_resource'], json=book_to_be_deleted, headers=header)
+print(type(response))
 delete_response_json = response.json()
 
 print(delete_response_json)
